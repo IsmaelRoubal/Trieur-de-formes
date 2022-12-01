@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 39514
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 109
+  controlID: 39515
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 110
+  controlID: 39516
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -401,9 +401,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 30fbffff
+      m_SelectedIDs: e44dfbff
+      m_LastClickedID: -307740
+      m_ExpandedIDs: 30d1fcffb816fdff7c24fdff6825fdff6e25fdff8c25fdffbe25fdffcc25fdffec25fdff0a26fdffd22cfdff462dfdff6030fdff7e30fdffd030fdfff630fdff1431fdff3231fdff8631fdffa431fdff0494fdffa69ffdff92a0fdff98a0fdffb6a0fdffe8a0fdfff6a0fdff16a1fdff34a1fdfffca7fdff84a8fdff9eabfdffbcabfdff0eacfdff34acfdff52acfdff70acfdffd4acfdfff4acfdff9a5afeffae71feff8a7cfeffa293feff30fbfffff2720000507300007876000032230600
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -653,9 +653,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 13.302298, y: 16.35542, z: 6.5279274}
+    m_Target: {x: 209.13168, y: 27.941221, z: 140.05908}
     speed: 2
-    m_Value: {x: 13.302298, y: 16.35542, z: 6.5279274}
+    m_Value: {x: 209.13168, y: 27.941221, z: 140.05908}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -702,13 +702,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.12491516, y: -0.8083863, z: 0.18525639, w: 0.54486775}
+    m_Target: {x: 0.0023629111, y: -0.97274745, z: 0.23221381, w: 0.016864073}
     speed: 2
-    m_Value: {x: -0.12489686, y: 0.8082679, z: -0.18522926, w: -0.54478794}
+    m_Value: {x: 0.002738069, y: -0.9721526, z: 0.2336162, w: 0.018314965}
   m_Size:
-    m_Target: 5.6652837
+    m_Target: 29.817474
     speed: 2
-    m_Value: 5.6652837
+    m_Value: 29.817474
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -772,25 +772,25 @@ MonoBehaviour:
     m_ReferencingInstanceIDs: 
     m_SceneHandles: 
     m_ShowAllHits: 0
-    m_SkipHidden: 0
+    m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/_Course Library
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/_Course Library
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Ismae\OneDrive\Documents\GitHub\Trieur-de-forme-2
+  m_LastProjectPath: C:\Users\Ismae\OneDrive\Documents\GitHub\Trieur-de-formes
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 24.420265}
-    m_SelectedIDs: 18900000
-    m_LastClickedID: 36888
-    m_ExpandedIDs: 00000000189000001a9000001c90000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: b6910000
+    m_LastClickedID: 37302
+    m_ExpandedIDs: 00000000189000001c900000ba910000be91000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -818,7 +818,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000189000001a9000001c900000
+    m_ExpandedIDs: 00000000189000001c900000ba910000be91000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -862,7 +862,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -872,7 +872,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
-  m_SkipHiddenPackages: 0
+  m_SkipHiddenPackages: 1
   m_DirectoriesAreaWidth: 207
 --- !u!114 &16
 MonoBehaviour:
