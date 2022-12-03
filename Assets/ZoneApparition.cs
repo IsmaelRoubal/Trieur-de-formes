@@ -3,10 +3,13 @@ using UnityEngine;
 public class ZoneApparition : MonoBehaviour
 {
     private float nextactiontime = 0.0f;
-    public float period = 1.5f;
+    public float period = 3.0f;
 
     [SerializeField]
     private GameObject package;
+
+    [SerializeField]
+    private GameObject rouge;
 
     [SerializeField]
     private Transform[] spawnPoints;
@@ -20,6 +23,10 @@ public class ZoneApparition : MonoBehaviour
 
                 GameObject instantiated = Instantiate(package);
                 instantiated.transform.position = randomPoint.position;
+
+                Transform randomPoint2 = spawnPoints[Random.Range(0, spawnPoints.Length)];
+                GameObject instantiated2 = Instantiate(rouge);
+                instantiated2.transform.position = randomPoint2.position;
         }
         
     }
