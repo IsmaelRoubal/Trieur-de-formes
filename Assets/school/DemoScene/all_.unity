@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17863205, g: 0.22367147, b: 0.30561635, a: 1}
+  m_IndirectSpecularColor: {r: 0.17863229, g: 0.22367162, b: 0.30561674, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12638,6 +12638,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   package: {fileID: 1156703174}
   enemy: {fileID: 1886044159}
+  audio1: {fileID: 8300000, guid: 6b678bcb494c342c6a84754deb847733, type: 3}
+  audio2: {fileID: 8300000, guid: edbee9319f58e4ec49630765046e52f6, type: 3}
 --- !u!135 &809418494
 SphereCollider:
   m_ObjectHideFlags: 0
